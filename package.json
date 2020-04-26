@@ -1,0 +1,43 @@
+{
+  "name": "CoVision",
+  "version": "1.0.0",
+  "description": "CoVision Front-end and Back-end",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js NODE_ENV=development",
+    "start": "node server.js",
+    "heroku-postbuild": "cd Client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakharvarshney/CoVision.git"
+  },
+  "keywords": [
+    "React",
+    "Express",
+    "Node",
+    "Medical"
+  ],
+  "author": "Lilius Inc, Ryan Fogarty, Sawyer Cutler",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "connect-redis": "^4.0.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.6",
+    "morgan": "^1.10.0",
+    "redis": "^3.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/prakharvarshney/CoVision/issues"
+  },
+  "homepage": "https://github.com/prakharvarshney/CoVision#readme"
+}
