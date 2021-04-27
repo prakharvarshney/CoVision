@@ -34,7 +34,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.6",
     "morgan": "^1.10.0",
-    "redis": "^3.0.2"
+    "redis": "^3.1.1"
   },
   "bugs": {
     "url": "https://github.com/prakharvarshney/CoVision/issues"
